@@ -1,0 +1,91 @@
+html{
+    background-color: rgb(235, 183, 144);
+}
+
+body{
+        max-width: 600px;
+        margin: 0px auto;
+}
+
+
+header{
+    background-color: rgb(107, 154, 202);
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    margin: 0px;
+    margin-bottom: 10px;
+    color: rgb(249, 240, 229);
+    font-family: "jacquarda-bastarda-9", sans-serif;
+}
+
+
+.site-nav{
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-top: 18px;
+    padding: 0px;
+    display:flex;
+        align-items:center;
+        align-content: center;
+        justify-content: space-around;
+        
+}
+
+    .tab{
+        display: flex;
+            flex: 1 1 0;
+        display: block;
+        background-color: rgb(248, 205, 153);
+        padding: 12px 28px;
+        border-radius: 8px 8px 0 0;
+        text-decoration: none;
+        color: rgb(107, 154, 202);
+        }
+        
+        .tab-current{
+            display: block;
+            background-color: rgb(249, 240, 229);
+            padding: 12px 28px;
+            border-radius: 8px 8px 0 0;
+            text-decoration: none;
+        }
+
+        .tab:hover {
+            display: block;
+            background-color: rgb(185, 223, 249);
+            padding: 12px 28px;
+            border-radius: 8px 8px 0 0;
+            text-decoration: none;
+        }
+        
+
+.code-pill {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #dfdcd8; 
+ border-radius: 8px;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+
+main{
+    background-color: rgb(249, 240, 229);
+    color: rgb(63, 61, 60);
+    padding: 18px;
+    margin: 0px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+    h2{
+    margin: 0px;
+    font-family: "jacquarda-bastarda-9", sans-serif;
+    }
+
